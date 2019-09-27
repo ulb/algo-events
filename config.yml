@@ -4,8 +4,10 @@ languageCode: en-us
 title: Algo Events
 buildFuture: true
 
-#permalinks:
-  #past: /:year/:month/:day/:title
+permalinks:
+  lunches: /lunch/:year/:month/:day/:title
+  meetups: /meetup/:year/:month/:day/:title
+  seminars: /seminar/:year/:month/:day/:title
 
 taxonomies:
   tag: tags
