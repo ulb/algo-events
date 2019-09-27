@@ -1,4 +1,4 @@
-.PHONY: all build assets static upload serv clean nuke
+.PHONY: all deploy build assets static upload serv clean nuke
 .SECONDARY:
 
 HUGO := hugo --gc
@@ -15,7 +15,9 @@ ASSETS := assets/vendor/materialize-src assets/vendor/material-icons.css
 #assets/katex.min.css assets/katex.min.js assets/katex-auto-render.min.js
 STATIC := static/vendor/lunr.min.js static/vendor/lodash.min.js
 
-all: clean build upload
+all: build
+
+deploy: clean build upload
 
 build: assets static
 	$(HUGO)
