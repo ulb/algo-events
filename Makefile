@@ -27,7 +27,9 @@ assets: $(ASSETS)
 static: $(STATIC)
 
 upload:
-	echo "Upload not implemented"
+	rm -rf public_html
+	cp -r public{,_html}
+	scp -r public_html/ aureooms@resu5.ulb.ac.be:/home/web1343/events/
 
 assets/vendor/materialize-src: static/vendor/materialize.zip
 	mkdir -p $(dir $@)
