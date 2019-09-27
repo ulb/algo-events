@@ -4,6 +4,8 @@ date: 2016-11-23T11:00:00.000Z
 title: 'Transfinite Ford-Fulkerson on a Finite Network'
 speakers:
   - Tony Huynh
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmVYnGi74DgfjxRvx1Tyfi9PZRpPMqHewu5weuP31C19kZ
 duration: PT1H
 geolocation:
   latitude: 50.82005
@@ -17,5 +19,13 @@ tags:
   - Transfinite Algorithms
 ---
 
+Today Tony will tell us about Transfinite Ford-Fulkerson on a Finite
+Network.
+
 <!--more-->
+
+Time: 12pm
+
+Room: NO8.202  (same room as last time)
+
 Paper available on [arXiv](https://arxiv.org/abs/1504.04363).

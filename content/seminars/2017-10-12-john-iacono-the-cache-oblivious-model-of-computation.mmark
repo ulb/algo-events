@@ -2,6 +2,8 @@
 url: /2017/10/12/seminar/john-iacono-the-cache-oblivious-model-of-computation
 date: 2017-10-12T10:15:00.000Z
 title: 'The Cache Oblivious Model of Computation'
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmVSqAtS9SQwWApPjx8ZQxnB3RRRUMaZtqmxiJeVuhquoX
 speakers:
   - John Iacono
 duration: PT1H30M

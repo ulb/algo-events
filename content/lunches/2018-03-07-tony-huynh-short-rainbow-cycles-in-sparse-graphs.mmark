@@ -4,6 +4,8 @@ date: 2018-03-07T10:00:00.000Z
 title: 'Short Rainbow Cycles in Sparse Graphs'
 speakers:
   - Tony Huynh
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmS2dN77dgJxKdHZAkA9mwF7skkYBRvpxAPEEr2ZYqWNtJ
 duration: PT1H
 geolocation:
   latitude: 50.82005
@@ -12,3 +14,15 @@ tags:
   - Graphs
   - Rainbow Cycles
 ---
+
+Let $G$ be a simple $n$-vertex graph and $c$ be a colouring
+of $E(G)$ with $n$ colours, where each colour class has size at least
+$2$. We prove that $G$ contains a rainbow cycle of length at most
+$\lceil \frac{n}{2} \rceil$, which is best possible. Our result
+settles a special case of a strengthening of the Caccetta-Häggkvist
+conjecture, due to Aharoni. We also show that the matroid
+generalization of our main result also holds for cographic matroids,
+but fails for binary matroids.
+
+This is joint work with Matt DeVos, Krystal Guo, Daryl Funk, Bojan
+Mohar, and Amanda Montejano.

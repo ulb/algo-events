@@ -2,6 +2,8 @@
 url: /2019/03/28/algo-lunch/alfio-giarlotta-universal-semiorders
 date: 2019-03-28T11:30:00.000Z
 title: 'Universal Semiorders'
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmTLHcJP6ygJamUqMWzHzkcCEorYM6zLPLy3QWtW8UcVuy
 speakers:
   - Alfio Giarlotta
 duration: PT1H
@@ -9,3 +11,23 @@ geolocation:
   latitude: 50.82005
   longitude: 4.39767
 ---
+
+Semiorders are binary relations that are complete, Ferrers, and semitransitive. In particu-
+lar, they display a transitive asymmetric part (strict preference), and a usually intransitive
+symmetric part (indifference). Semiorders are among the most studied categories of binary
+relations in preference modeling. This is due to the vast range of economic scenarios which
+can modelled by appealing to the notion of ‘just noticeable difference’. We give a univer-
+sal characterization of semiorders, which uses the notions of a Z-product and a Z-line. A
+Z-product is a modified lexicographic product of three total preorders (complete and tran-
+sitive) such that the middle factor is the chain of integers equipped with a shift operator.
+A Z-line is a Z-product having two linear orders as its extreme factors. We show that an
+arbitrary semiorder order-embeds into a Z-product having the transitive closure as its first
+factor, and a sliced trace as its last factor. Sliced traces are modified forms of the classical
+notion of trace, which are induced by suitable integer-valued maps. Their definition is remi-
+niscent of constructions related to the Scott-Suppes representation of a semiorder. Further,
+we show that Z-lines are universal semiorders, in the sense that they are semiorders, and each
+semiorder order-embeds into a Z-line. As a corollary of this description, we derive the result,
+due to Rabinovitch (1978), that the dimension of a strict semiorder is at most three. Many
+additional well-known facts are easy consequences of our characterization of semiorders.
+
+Joint work with Stephen Watson, York University, Toronto, Canada.

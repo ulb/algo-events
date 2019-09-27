@@ -4,8 +4,20 @@ date: 2019-06-19T10:30:00.000Z
 title: '3D Snap Rounding'
 speakers:
   - Leo Valque
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmV1yu7xa5gUeYFZNadgpRVrjUkr99sxAGkhmjUoXisqes
 duration: PT1H
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
 ---
+
+Many computational geometry algorithms require greater accuracy for
+output than for input. So, to send or use the output, we often need to
+round it off. If this is done naively, intersections can occur during
+rounding. An algorithm from Devillers, Lenhart, Lazard was presented
+last year to solve this problem. The worst case of this algorithm is
+$$O(n^15)$$. An implementation of this algorithm shows that on average,
+it is $$O(n \sqrt{n})$$. But for a use it's already too much. One hope
+is to design a lazy algorithm that only makes this heavy algorithm
+where it is needed.

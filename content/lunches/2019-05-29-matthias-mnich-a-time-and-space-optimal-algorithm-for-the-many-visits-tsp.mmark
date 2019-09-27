@@ -4,6 +4,8 @@ date: 2019-05-29T10:30:00.000Z
 title: 'A time- and space-optimal algorithm for the many-visits TSP'
 speakers:
   - Matthias Mnich
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmWymvnnyXx6gTPBPGSJC9poFcZUs5xwXt1Tq6NWp19m7B
 duration: PT1H
 geolocation:
   latitude: 50.82005
@@ -12,3 +14,37 @@ tags:
   - Algorithms
   - Travelling Salesman Problem
 ---
+
+The many-visits traveling salesperson problem (MV-TSP) asks
+for an optimal tour of n cities that visits each city c a prescribed
+number kcof times. Travel costs may not be symmetric, and visiting a
+city twice in a row may incur a non-zero cost. The MV-TSP problem
+finds applications in scheduling, geometric approximation, and
+Hamiltonicity of certain graph families.
+
+The fastest known algorithm for MV-TSP is due to Cosmadakis and
+Papadimitriou (SICOMP, 1984). It runs in time nO(n)+O(n3log∑ckc) and
+requires nΩ(n) space.
+
+The interesting feature of the Cosmadakis-Papadimitriou algorithm is
+its \emph{logarithmic} dependence on the total length ∑ckc of the
+tour, allowing the algorithm to handle instances with very long tours,
+beyond what is tractable in the standard TSP setting. However, the
+\emph{superexponential} dependence on the number of cities in both its
+time and space complexity renders the algorithm impractical for all
+but the narrowest range of this parameter.
+
+We significantly improve on the Cosmadakis-Papadimitriou algorithm,
+giving an MV-TSP algorithm that runs in \emph{single-exponential} time
+with \emph{polynomial} space. More precisely, we obtain the running
+time 2O(n)+O(n3log∑ckc), with O(n2log∑ckc) space. Assuming the
+Exponential-time Hypothesis (ETH), both the time and space
+requirements of our algorithm are optimal.
+
+Our algorithm is deterministic, and arguably both simpler and easier
+to analyse than the original approach of Cosmadakis and Papadimitriou.
+It involves an optimization over oriented spanning trees of a graph
+and employs a recursive, centroid-based decomposition of trees.
+
+Appeared at SODA 2019, joint work with André Berger, Laszló Kozma and
+Roland Vincze.

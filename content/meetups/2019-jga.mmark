@@ -3,6 +3,9 @@ title: 21ièmes Journées Graphes et Algorithmes (JGA 2019)
 date: 2019-11-13T10:00:00.000Z
 end: 2019-11-15T10:00:00.000Z
 location: Brussels
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmTp42725yPfa7VKNEKsiSyW1QWTmQQxWMRLxGMGtCKFae
+  caption: JGA 2019
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
@@ -12,6 +15,10 @@ tags:
 status: CONFIRMED
 ---
 
+Les 21ièmes Journées Graphes et Algorithmes (JGA 2019) auront lieu à Bruxelles,
+du 13 au 15 novembre 2019. Il s'agit du rendez-vous annuel de la communauté
+francophone de la théorie des graphes et de ses applications.
+
 <!--more-->
 
-Information available at https://di.ulb.ac.be/algo/jga2019.
+More information available at https://di.ulb.ac.be/algo/jga2019.

@@ -11,3 +11,22 @@ geolocation:
 tags:
   - Geometry
 ---
+
+A typical two-stage process governs the selection of meal items in an
+Italian menu.  The process admits a direct formalization in terms of
+choice spaces.  Path-independent choice spaces are cryptomorphic to
+convex geometries (or antimatroids, introduced by Robert E. Jamison).
+There results a construction of a new convex geometry for a convex
+geometry (the base) given together with a family of convex geometries
+(the fibers) indexed by the elements of the base; we call the outcome
+a resolution.  The construction is similar to the classical
+composition of hypergraphs due to Chein, Habib & Maurer (1981),
+Mohring & Radermacher (1984), Ehrenfeucht & McConnell (1994).
+However, resolutions are more appropriate for our goals: they always
+deliver a convex geometry, while a composition of convex geometries is
+usually not a convex geometry.  We investigate resolutions of convex
+geometries, reporting first results on indecomposable convex
+geometries.  In particular, we look at families of convex geometries
+resulting from various notions of convexity in graphs and in posets.
+The talk is based on on-going, joint work with Domenico Cantone, Alfio
+Giarlotta and Stephen Watson.

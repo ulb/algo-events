@@ -5,6 +5,7 @@ title: 'Computing a maximum independent set in a graph embedded in a fixed surfa
 speakers:
   - Samuel Fiorini
 duration: PT1H
+location: NO8.202
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
@@ -13,3 +14,10 @@ tags:
   - Graph Embedding
   - Maximum Independent Set
 ---
+
+Tomorrow Sam will tell us how to compute a maximum independent set in
+a graph embedded in a fixed surface if there are not many disjoint odd
+cycles in the graph.
+
+Note the unusual room: NO8.202 ("petit séminaire"), because of exams
+taking place in the other rooms.

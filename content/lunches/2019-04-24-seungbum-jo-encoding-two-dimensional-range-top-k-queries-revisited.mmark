@@ -2,6 +2,8 @@
 url: /2019/04/24/algo-lunch/seungbum-jo-encoding-two-dimensional-range-top-k-queries-revisited
 date: 2019-04-24T10:30:00.000Z
 title: 'Encoding Two-Dimensional Range Top-k Queries Revisited'
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/Qmcz2bB2ggigNkr3LcBNrkGkDXPusMCMscLJKrx5gyFR98
 speakers:
   - Seungbum Jo
 duration: PT1H
@@ -11,3 +13,23 @@ geolocation:
 tags:
   - Range Queries
 ---
+
+We consider the problem of encoding two-dimensional arrays, whose
+elements come from a total order, for answering Top-k queries. The aim
+is to obtain encodings that use space close to the
+information-theoretic lower bound, which can be constructed
+efficiently. For 2 x n arrays, we first give upper and lower bounds on
+space for answering sorted and unsorted 3-sided Top-k queries. For m x
+n arrays, with m <=n and k <=mn, we obtain (m lg{(k+1)n choose
+n}+4nm(m-1)+o(n))-bit encoding for answering sorted 4-sided Top-k
+queries. This improves the min{(O(mn lg{n}),m^2 lg{(k+1)n choose n} +
+m lg{m}+o(n))}-bit encoding of Jo et al. [CPM, 2016] when m =
+o(lg{n}). This is a consequence of a new encoding that encodes a 2 x n
+array to support sorted 4-sided Top-k queries on it using an
+additional 4n bits, in addition to the encodings to support the Top-k
+queries on individual rows. This new encoding is a non-trivial
+generalization of the encoding of Jo et al. [CPM, 2016] that supports
+sorted 4-sided Top-2 queries on it using an additional 3n bits. We
+also give almost optimal space encodings for 3-sided Top-k queries,
+and show lower bounds on encodings for 3-sided and 4-sided Top-k
+queries.

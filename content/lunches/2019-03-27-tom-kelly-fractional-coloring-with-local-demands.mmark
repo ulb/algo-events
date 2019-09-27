@@ -13,3 +13,18 @@ tags:
   - Coloring
   - Graph Coloring
 ---
+
+In a fractional coloring, vertices of a graph are assigned
+subsets of the [0, 1]-interval such that adjacent vertices receive
+disjoint subsets. The fractional chromatic number of a graph is at
+most k if it admits a fractional coloring in which the amount of
+"color" assigned to each vertex is at least 1/k. We investigate
+fractional colorings where vertices "demand" different amounts of
+color, determined by local parameters such as the degree of a vertex.
+Many well-known results concerning the fractional chromatic number and
+independence number have natural generalizations in this new paradigm.
+We discuss several such results as well as open problems. In
+particular, we will sketch a proof of a "local demands" version of
+Brooks' Theorem that considerably generalizes the Caro-Wei Theorem and
+implies new bounds on the independence number. Joint work with Luke
+Postle.

@@ -11,3 +11,15 @@ geolocation:
 tags:
   - Extension Complexity
 ---
+
+Deterministic protocols are well-known tools to obtain extended
+formulations, with many applications to polytopes arising in
+combinatorial optimization. Although constructive, those tools are not
+output-efficient, since the time needed to produce the extended
+formulation also depends on the size of the slack matrix (hence, of
+the exact description in the original space). We give general
+sufficient conditions under which those tools can be implemented as to
+be output-efficient. In particular we apply this to Yannakakis'
+extended formulation for the stable set polytope of perfect graphs,
+for which, to the best of our knowledge, an efficient construction was
+previously not known.

@@ -4,6 +4,8 @@ date: 2019-02-01T11:30:00.000Z
 title: 'Volume estimation by a new annealing schedule for cooling convex bodies'
 speakers:
   - Vissarion Fisikopoulos
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmXGZQdyfRrJr3zXES8hheCF8t6v5J3Zv8cFPM95yHX57X
 duration: PT1H
 geolocation:
   latitude: 50.82005
@@ -11,3 +13,34 @@ geolocation:
 tags:
   - Geometry
 ---
+
+We experimentally study the problem of estimating the
+volume of convex polytopes, focusing on H- and V-polytopes, as well as
+zonotopes. Although a lot of effort is devoted to practical algorithms
+for H-polytopes there is no such method for the latter two
+representations. We propose a new, practical method for all
+representations, which is faster on H-polytopes; it relies on
+Hit-and-Run (HnR) sampling, and combines a new simulated annealing
+method with the Multiphase Monte Carlo (MMC) approach. Our method
+introduces the following key features:
+(a) It generates a sequence of convex bodies generalizing the ball
+sequence in MMC where, moreover, the body chosen depends on the input,
+(b) It minimizes the number of bodies in (a) by introducing a new annealing,
+(c) It exploits the Gaussian distribution of each volume ratio of the
+telescoping product, and proposes a better convergence criterion.
+We offer an open source, optimized C++ implementation, and analyse its
+performance to show that:
+(i) It outperforms state-of-the-art software for H-polytopes by
+Cousins-Vempala (MPC 2016) and Emiris-Fisikopoulos (ACM TOMS 2018).
+(ii) It provides the first poly-time, practical method for V-polytopes
+and zonotopes that scales to high dimensions (currently 100 for
+low-order zonotopes).
+(iii) It offers a choice between random- and coordinate-direction HnR,
+the former being slower but statistically more stable.
+We focus on zonotopes characterized by their order (number of
+generators over dimension), because this largely determines sampling
+complexity. The number of phases in MMC tends to a constant as order
+increases, while the bodies in (a) are balls.
+For low orders, the generators' matrix is used to define a centrally
+symmetric convex polytope in (a). Concerning applications, we evaluate
+methods of zonotope approximation in engineering.

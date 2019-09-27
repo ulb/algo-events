@@ -4,6 +4,8 @@ date: 2019-05-23T10:30:00.000Z
 title: 'Location Information'
 speakers:
   - Maarten Löffler
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmXgtcraz84KbfKSPefEHB3SaTDbLazDsZixWWMahqGdSz
 duration: PT1H30M
 location: Forum F
 geolocation:
