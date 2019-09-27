@@ -1,0 +1,20 @@
+---
+url: /2017/06/06/algo-lunch/till-miltzow-intersection-graphs-of-rays-and-grounded-segments
+date: 2017-06-06T10:30:00.000Z
+title: 'Intersection Graphs of Rays and Grounded Segments'
+speakers:
+  - Till Miltzow
+duration: PT1H
+thumbnail:
+  src: https://ipfs.c.ovfefe.cf/ipfs/QmaoKCY7kC5fkgWxdA2jpfy1TDQmYxBWxg4fUgg3PZM3LJ
+  caption: Schematic description of some of the results
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+tags:
+  - Graphs
+  - Intersection Graphs
+---
+
+<!--more-->
+Paper available on [arXiv](https://arxiv.org/abs/1612.03638).

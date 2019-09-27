@@ -1,0 +1,21 @@
+---
+url: /2016/11/23/algo-lunch/tony-huynh-transfinite-ford-fulkerson-on-a-finite-network
+date: 2016-11-23T11:00:00.000Z
+title: 'Transfinite Ford-Fulkerson on a Finite Network'
+speakers:
+  - Tony Huynh
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+tags:
+  - Computation Models
+  - Algorithms
+  - Maximum Flow
+  - Ford-Fulkerson
+  - Euclidean Algorithm
+  - Transfinite Algorithms
+---
+
+<!--more-->
+Paper available on [arXiv](https://arxiv.org/abs/1504.04363).

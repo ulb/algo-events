@@ -1,0 +1,31 @@
+---
+url: /2017/10/12/seminar/john-iacono-the-cache-oblivious-model-of-computation
+date: 2017-10-12T10:15:00.000Z
+title: 'The Cache Oblivious Model of Computation'
+speakers:
+  - John Iacono
+duration: PT1H30M
+location: Forum G
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+tags:
+  - Computation Models
+  - Cache Oblivious
+---
+
+In the standard model of computation often taught in computer science courses
+one identifies elementary operations and counts them in order to obtain the
+runtime. However, given the complexity of computing hardware, this measure
+often does not correlate well with actual observed runtime on a computer;
+accessing n items sequentially or randomly typically have runtimes that differ
+by several orders of magnitude. In this talk I will present the cache-oblivious
+model of computation, a model that was introduced by Prokop in 1999 and is
+relatively easy to reason with, by modeling the multilevel caches that are a
+defining feature of the cost of modern computation. After presenting the model,
+several data structure and algorithms that illustrate design techniques to
+develop cache-obliviously optimal structures will be presented.
+
+<!--more-->
+
+The speaker is hosted by the Algorithms Group.

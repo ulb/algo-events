@@ -1,0 +1,39 @@
+---
+url: /2019/05/23/seminar/maarten-loffler-location-information
+date: 2019-05-23T10:30:00.000Z
+title: 'Location Information'
+speakers:
+  - Maarten Löffler
+duration: PT1H30M
+location: Forum F
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+tags:
+  - Computational Geometry
+  - Delaunay Triangulations
+  - Voronoi Diagrams
+  - Well-Separated Pair Decomposition
+  - Quadtrees
+---
+
+Let P be a set of n points in the plane. In the traditional geometric
+algorithms view, P is given as an unordered sequence of locations (usually
+pairs of x and y coordinates). There are many interesting and useful structures
+that one can build on top of P: the Delaunay triangulation, Voronoi diagram,
+well-separated pair decomposition, quadtree, etc. These structures can all be
+represented in O(n) space but take Omega(n log n) time to construct on a Real
+RAM, and, hence, contain information about P that is encoded in P but cannot be
+directly read from P.
+
+In this talk I will explore the question how much information about the
+structure of a set of points can be derived from their locations, especially
+when we are *uncertain* about the locations of the points.
+
+<!--more-->
+
+### Bio
+
+Maarten Löffler is currently an assistant professor at Utrecht University. He has been a post-doc researcher at the Bren School of information and computer sciences of the University of California, Irvine. He was a PhD-student at Utrecht University.
+
+The speaker is hosted by the Algorithms Group.
