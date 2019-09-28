@@ -2,16 +2,17 @@
 title: 21ièmes Journées Graphes et Algorithmes (JGA 2019)
 date: 2019-11-13T10:00:00.000Z
 end: 2019-11-15T10:00:00.000Z
-location: Brussels
 thumbnail:
   src: https://ipfs.c.ovfefe.cf/ipfs/QmTp42725yPfa7VKNEKsiSyW1QWTmQQxWMRLxGMGtCKFae
   caption: JGA 2019
+location: Salle Solvay, Bâtiment NO 5ème étage (à gauche en sortant des ascenseurs), Université Libre de Bruxelles - Campus Plaine, Boulevard du Triomphe, 1050 Bruxelles.
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
 tags:
   - Graphs
   - Algorithms
+organizer: SENT-BY="mailto:gjoret@ulb.ac.be":CN="Samuel Fiorini":mailto:sfiorini@ulb.ac.be
 status: CONFIRMED
 ---
 

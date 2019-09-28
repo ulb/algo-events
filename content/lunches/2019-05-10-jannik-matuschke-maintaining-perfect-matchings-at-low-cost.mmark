@@ -6,6 +6,7 @@ speakers:
 thumbnail:
   src: https://ipfs.c.ovfefe.cf/ipfs/QmYZdodeWrdfeCRKkzueNd3fkVPyAY7MH4VuvYYxfzmmcn
 duration: PT1H
+location: Salle des profs NO9
 geolocation:
   latitude: 50.82005
   longitude: 4.39767

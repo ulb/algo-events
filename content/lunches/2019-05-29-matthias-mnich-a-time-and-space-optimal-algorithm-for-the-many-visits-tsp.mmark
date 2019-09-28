@@ -6,6 +6,7 @@ speakers:
 thumbnail:
   src: https://ipfs.c.ovfefe.cf/ipfs/QmWymvnnyXx6gTPBPGSJC9poFcZUs5xwXt1Tq6NWp19m7B
 duration: PT1H
+location: NO8.08
 geolocation:
   latitude: 50.82005
   longitude: 4.39767

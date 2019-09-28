@@ -6,6 +6,7 @@ speakers:
 thumbnail:
   src: https://ipfs.c.ovfefe.cf/ipfs/QmcrqcZHLzYLWfwT6dAU5fRSibbefHbFr62EiNqqsUifb9
 duration: PT1H
+location: OF.2070
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
