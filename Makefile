@@ -1,7 +1,8 @@
-.PHONY: all deploy build assets static upload serv clean nuke
+.PHONY: all deploy build serv assets static upload clean nuke
 .SECONDARY:
 
 HUGO := hugo --gc
+
 #KATEX_VERSION := 0.10.2
 URL_MATERIALIZE_ZIP := https://github.com/Dogfalo/materialize/releases/download/1.0.0/materialize-src-v1.0.0.zip
 URL_MATERIALICONS_CSS := https://fonts.googleapis.com/icon?family=Material+Icons
@@ -21,6 +22,9 @@ deploy: clean build upload
 
 build: assets static
 	$(HUGO)
+
+serv: clean assets static
+	$(HUGO) server
 
 assets: $(ASSETS)
 
@@ -60,9 +64,6 @@ static/vendor/lodash.min.js:
 #assets/katex-auto-render.min.js:
 	#mkdir -p $(dir $@)
 	#wget -O $@ $(URL_KATEX_AUTO_RENDER_JS)
-
-serv: clean assets static
-	$(HUGO) server
 
 clean:
 	rm -rf resources public
