@@ -1,3 +1,4 @@
 [submodule "themes/events"]
 	path = themes/events
-	url = gh:aureooms/hugo-theme-events
+	url = https://github.com/aureooms/hugo-theme-events
+	pushurl = git@github.com:aureooms/hugo-theme-events
