@@ -1,6 +1,8 @@
 .PHONY: all deploy build serv assets static upload clean nuke
 .SECONDARY:
 
+DEPLOYER ?= gjoret
+
 HUGO := hugo --gc
 
 #KATEX_VERSION := 0.10.2
@@ -31,7 +33,7 @@ assets: $(ASSETS)
 static: $(STATIC)
 
 upload:
-	scp -r public/. gjoret@resu5.ulb.ac.be:/home/web1343/public_html/events/
+	scp -r public/. $(DEPLOYER)@resu5.ulb.ac.be:/home/web1343/public_html/events/
 
 assets/vendor/materialize-src: static/vendor/materialize.zip
 	mkdir -p $(dir $@)
