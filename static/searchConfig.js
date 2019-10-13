@@ -1,7 +1,7 @@
 importScripts(`./vendor/lodash.min.js`);
 
 var lunrConfig = {
-	"limit": 5,
+  "limit": 5,
 } ;
 
 var removeAccents = function (builder) {
@@ -20,15 +20,16 @@ var removeAccents = function (builder) {
 }
 
 var lunrPlugins = [
-	function () {
-		this.ref('id');
-		this.field('link');
-		this.field('title');
-		this.field('content');
-		this.field('summary');
-		this.field('status');
-		this.field('authors');
-		this.field('tags');
-	} ,
-	removeAccents ,
+  function () {
+    this.ref('id');
+    this.field('link');
+    this.field('title');
+    this.field('content');
+    this.field('summary');
+    this.field('status');
+    this.field('authors');
+    this.field('speakers');
+    this.field('tags');
+  } ,
+  removeAccents ,
 ] ;
