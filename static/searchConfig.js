@@ -1,4 +1,4 @@
-importScripts(`./vendor/lodash.min.js`);
+importScripts('./vendor/lodash.min.js');
 
 var lunrConfig = {
   "limit": 5,
