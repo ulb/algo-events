@@ -8,6 +8,11 @@ location: Plaine campus, NO building, 8th floor, Rotule (P.2NO8.08)
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
+tags:
+  - Graphs
+  - Coloring
+  - Graph Coloring
+  - Sparse Graphs
 ---
 Writing $$\mathcal{I}(G)$$ for the collection of independent sets of a given
 graph $$G$$, a random independent set $$\mathcal{B}$$ drawn according to the
