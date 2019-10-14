@@ -14,10 +14,10 @@ tags:
   - Rainbow Cycles
 ---
 
-Let $G$ be a simple $n$-vertex graph and $c$ be a colouring
-of $E(G)$ with $n$ colours, where each colour class has size at least
-$2$. We prove that $G$ contains a rainbow cycle of length at most
-$\lceil \frac{n}{2} \rceil$, which is best possible. Our result
+Let $$G$$ be a simple $$n$$-vertex graph and $$c$$ be a colouring
+of $$E(G)$$ with $$n$$ colours, where each colour class has size at least
+$$2$$. We prove that $$G$$ contains a rainbow cycle of length at most
+$$\lceil \frac{n}{2} \rceil$$, which is best possible. Our result
 settles a special case of a strengthening of the Caccetta-Häggkvist
 conjecture, due to Aharoni. We also show that the matroid
 generalization of our main result also holds for cographic matroids,
