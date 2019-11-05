@@ -3,10 +3,26 @@ title: 'Using hard-core distributions for sparse graph colouring'
 speakers:
   - François Pirot
 duration: PT1H
+location: Plaine campus, NO building, 8th floor, Rotule (P.2NO8.08)
 geolocation:
   latitude: 50.82005
   longitude: 4.39767
+tags:
+  - Graphs
+  - Coloring
+  - Graph Coloring
+  - Sparse Graphs
 ---
-Writing $\mathcal{I}(G)$ for the collection of independent sets of a given graph $G$, a random independent set $\mathcal{B}$ drawn according to the hard-core distribution at fugacity $\lambda$ on $\mathcal{I}(G)$ satisfies for every independent set $I\in \mathcal{I}(G)$ that $\Pr[\mathcal{B} = I] = \frac{\lambda^{|I|}}{Z_\lambda(G)}$, where $Z_\lambda(G) = \sum_{I\in \mathcal{I}(G)} \lambda^{|I|}$ is a normalising factor, called the independence polynomial of $G$. 
+Writing $$\mathcal{I}(G)$$ for the collection of independent sets of a given
+graph $$G$$, a random independent set $$\mathcal{B}$$ drawn according to the
+hard-core distribution at fugacity $$\lambda$$ on $$\mathcal{I}(G)$$ satisfies for
+every independent set $$I\in \mathcal{I}(G)$$ that $$\Pr[\mathcal{B} = I] =
+\frac{\lambda^{|I|}}{Z_\lambda(G)}$$, where $$Z_\lambda(G) = \sum_{I\in
+\mathcal{I}(G)} \lambda^{|I|}$$ is a normalising factor, called the independence
+polynomial of $$G$$.
 
-Inspired by a method of Molloy and Reed which demonstrates a fractional version of Reed's conjecture, namely $\chi_f(G) \le (\omega(G)+\Delta(G)+1)/2$ for every graph $G$, we show that a greedy fractional colouring algorithm is really efficient in order to return a fractional colouring of various classes of sparse graphs, when used with the hard-core distribution on independent sets.
+Inspired by a method of Molloy and Reed which demonstrates a fractional version
+of Reed's conjecture, namely $$\chi_f(G) \le (\omega(G)+\Delta(G)+1)/2$$ for
+every graph $$G$$, we show that a greedy fractional colouring algorithm is really
+efficient in order to return a fractional colouring of various classes of
+sparse graphs, when used with the hard-core distribution on independent sets.
