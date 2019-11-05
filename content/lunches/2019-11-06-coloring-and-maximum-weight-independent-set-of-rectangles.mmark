@@ -1,0 +1,13 @@
+---
+date: 2019-11-06T11:30:00.000Z
+title: 'Coloring and Maximum Weight Independent Set of rectangles'
+speakers:
+  - Bartosz Walczak
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+We prove that every intersection graph of axis-parallel rectangles in the plane with clique number ω has chromatic number O(ω log ω), which is the first improvement of the original O(ω²) bound of Asplund and Grünbaum from 1960. As a consequence, we obtain a polynomial-time O(log log n)-approximation algorithm for Maximum Weight Independent Set in axis-parallel rectangles, improving the previous best approximation ratio of O(log n/log log n).
+
+Joint work with Parinya Chalermsook.
