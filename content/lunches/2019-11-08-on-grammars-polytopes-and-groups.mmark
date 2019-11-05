@@ -1,0 +1,22 @@
+---
+date: 2019-11-08T11:30:00.000Z
+title: 'On Grammars, Polytopes, and Groups'
+speakers:
+  - Mateus de Oliveira Oliveira
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+A fundamental step towards solving combinatorial problems using techniques from linear programming
+theory is to encode the space of feasible solutions for such problems as the set of vertices of polytopes
+of small extension complexity.  
+
+In this work, we establish several connections between the extension complexity of polytopes, formal language
+theory, and group theory. In particular, we introduce the notion of homogeneous context-free grammars and show
+that polytopes corresponding to languages accepted by polynomial-size non-uniform families of grammars with
+polynomial homogeneity have polynomial extension complexity. Using this result we show that groups that can be
+embedded into the automorphism group of graphs of constant treewidth and constant degree have polynomial
+extension complexity. 
+
+Joint work with Lars Jaffke and Hans Raj Tiwary.
