@@ -1,0 +1,17 @@
+---
+date: 2020-02-20T12:00:00.000Z
+title: 'Online Min-Sum Set Cover'
+speakers:
+  - Grigorios Koumoutsos
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+We initiate a systematic study of online Min-Sum Set Cover (MSSC), a natural and intriguing generalization of the classical list update problem. In Online MSSC, the algorithm maintains a permutation on $n$ elements based on subsets $S_1, S_2, \ldots$ arriving online. The algorithm serves each set $S_t$ upon arrival, using its current permutation $\pi_{t-1}$ and incurring an access cost equal to the position of the first element of $S_t$ in $\pi_{t-1}$. Then, the algorithm may update its permutation to $\pi_t$, incurring a moving cost equal to the Kendall tau distance of $\pi_{t-1}$ to $\pi_{t}$. The objective is to minimize the total access and moving cost for serving the entire sequence. We consider the $r$-uniform version of online MSSC, where each $S_t$ has cardinality $r$. List update is the special case where $r = 1$.
+
+We mostly investigate the competitive ratio of online deterministic algorithms for MSSC against a static adversary, that serves the entire sequence by a single permutation. We show a lower bound of $(r+1)(1-\frac{r}{n+1})$ on the competitive ratio of any deterministic algorithm and that virtually all simple generalizations of Move-to-Front (which is optimal for list update) fail to be competitive.
+
+On the positive side, we round the distribution over permutations maintained by multiplicative weight updates (MWU) and obtain an asymptotically optimal O(r)-competitive deterministic algorithm. However, our algorithm is not computationally efficient, because the support of MWU's distribution is $n!$. By carefully generalizing Move-to-Front, we obtain a memoryless online algorithm, called \emph{Move-All-Equally}, and show that its competitive ratio is $\Omega(r^2)$ and $O(r^{2/\epsilon}n^\epsilon)$, for any $\epsilon > 0$.
+
+We also compare Move-All-Equally against a more demanding dynamic adversary, that can update its permutation by incurring the corresponding moving cost. We show that Move-All-Equally is $\Omega(r \sqrt{n})$ and $O(r^{3/2} \sqrt{n})$ competitive for the dynamic version of Online MSSC.
