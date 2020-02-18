@@ -1,0 +1,25 @@
+---
+date: 2020-02-19T11:30:00.000Z
+title: 'Around the Petersen Colouring Conjecture'
+speakers:
+  - Jean-Sébastien Sereni
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+A number of old conjectures related to edge-colourings of 3-regular
+graphs remain vastly open.  Among them, the Petersen colouring
+conjecture is a very strong statement, which implies most of these, such
+as the Berge—Fulkerson conjecture, and the 5-Cycle-double-cover conjecture.
+It states that every bridgeless cubic graph admits an edge-colouring
+with 5 colours such that for every edge e, the set of colours assigned
+to the edges adjacent to e has cardinality either 2 or 4, but not 3.  I
+will also discuss a variation of this conjecture using only 4 colours
+instead of 5, and show that all but at most 8/15·|E(G)| edges can be made
+to satisfy the above condition. Further, the bound is tight, and
+attained only by the Petersen graph.  Various open questions on related
+topics will be presented too.
+
+The talk is based on a joint work with François Pirot & Riste
+Škrekovski.

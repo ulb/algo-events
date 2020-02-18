@@ -1,0 +1,11 @@
+---
+date: 2020-02-26T11:30:00.000Z
+title: 'Packing and covering balls in graphs excluding a minor'
+speakers:
+  - Carole Muller
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+Given a graph $G$, the ball centered at vertex $v$ of radius $r$ is the set containing all vertices at distance at most $r$ from $v$. We prove that for every integer $t\ge 1$ there exists a constant $c_t$ such that for every $K_t$-minor-free graph $G$, and every set $S$ of balls in $G$, the minimum size of a set of vertices of $G$ intersecting all the balls of $S$ is at most $c_t$ times the maximum number of vertex-disjoint balls in $S$. This was conjectured by Chepoi in 2007 in the special case of planar graphs and of balls having the same radius. This is joint work with Nicolas Bousquet, Wouter Cames van Batenburg, Louis Esperet, Gwena\"el Joret, William Lochet, and Fran\c{c}ois Pirot.

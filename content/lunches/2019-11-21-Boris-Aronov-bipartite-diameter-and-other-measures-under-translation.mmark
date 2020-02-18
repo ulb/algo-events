@@ -1,0 +1,33 @@
+---
+date: 2019-11-21T11:30:00.000Z
+title: 'Bipartite Diameter and Other Measures Under Translation'
+speakers:
+  - Boris Aronov
+duration: PT1H
+geolocation:
+  latitude: 50.82005
+  longitude: 4.39767
+---
+Let A and B be two sets of points in R^d, where |A|=|B|=n and the 
+distance between them is defined by some bipartite measure
+dist(A,B). We study several problems in which the goal is to translate
+the set B, so that dist(A, B) is minimized. The main measures that we
+consider are
+
+(i) the _diameter_ in two and three dimensions, that is diam(A,B) =
+max {d(a,b) : a in A, b in B}, where d(a,b) is the Euclidean distance
+between $a$ and $b$,
+
+(ii) the _uniformity_ in the plane, that is uni(A,B) = diam(A,B) -
+d(A,B), where d(A,B)=min {d(a,b) : a in A, b in B}, and
+
+(iii) the _union width_ in two and three dimensions, that is
+uniwidth(A,B) = width(A cup B). For each of these measures we present
+efficient algorithms for finding a translation of B that minimizes the
+distance: For diameter we present near-linear-time algorithms in R^2
+and R^3, for uniformity we describe a roughly O(n^{9/4})-time
+algorithm, and for union width we offer a near-linear-time algorithm
+in R^2 and a quadratic-time one in R^3.
+
+This is joint work with Omrit Filtser, Matthew J. Katz, and Khadijeh
+Sheikhan.
