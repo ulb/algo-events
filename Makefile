@@ -33,7 +33,7 @@ assets: $(ASSETS)
 static: $(STATIC)
 
 upload:
-	scp -r public/. $(DEPLOYER)@resu5.ulb.ac.be:/home/web1343/public_html/events/
+	scp -r public/. $(DEPLOYER)@webhosting.ulb.be:/home/web1343/public_html/events/
 
 assets/vendor/materialize-src: static/vendor/materialize.zip
 	mkdir -p $(dir $@)
